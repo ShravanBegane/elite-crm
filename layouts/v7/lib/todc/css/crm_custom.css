@@ -1,0 +1,158 @@
+@media (max-width: 768px){
+.module-action-bar .navbar-right {
+    float: right;
+    /*height: 87px !important;*/
+}
+#modnavigator {
+    
+    height: 139px  !important;
+}
+.modal-dialog {
+     width: 60px; 
+     margin: 3px  
+}
+.editViewContents ul.calender-list-quick-create {
+    margin-left: 1px;
+}
+#CustomView .modal-body{
+        margin-left: 19px !important;
+    margin-right: 5px !important;
+}
+
+.main-container-MailManager .listViewPageDiv {
+    padding-left: 0 !important;
+}
+
+.mmDescription {
+    height: 390px !important;
+    width: 100% !important;
+    
+}
+
+/*
+
+.main-container .module-nav {
+    display: inline-block;
+    width: 42px;
+    z-index: 1093;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    background-color: #2C3B49;
+    background: #2C3B49;
+}
+*/
+
+
+
+
+.modal-dialog {
+    position: relative;
+    width: 1px;
+    margin: 10px;
+}
+.dashboardWidget{
+    left: -2px !important;
+        right: -2px !important;
+        padding :0 !important;
+}
+.dashboardWidget {
+     overflow: scroll !important;
+}
+.date-picker-wrapper{
+        left: 4px !important;
+        width: 93%;
+}
+/*
+.navbar-collapse.in {
+    
+    position: absolute;
+    left: 50px;
+    display:block !important;
+    z-index:1;
+}
+*/
+#search-links-container{
+    position: absolute;
+
+    background: #ffffff;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+}
+.global-actions{
+        position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 86px;
+    left: 3px;
+    background: #ffffff;
+}
+.date-picker-wrapper .month-wrapper table.month2 {
+    float: left;
+}
+#taskManagementOtherFilters .field, #taskManagementOtherFilters button{
+   width: 57% !important;
+    margin-left: 221px;
+    display:block;
+}
+#taskManagementOtherFilters .listSearchContributor .select2-choices
+{
+    overflow-y: scroll;
+    height: 75px !important;
+   
+}
+
+
+.floatThead-container .dropdown-menu,.dropdown-backdrop {
+    bottom: 16px !important;
+    top:60px !important;
+    height:auto;
+   
+    
+}
+.settingsPageDiv .modal-overlay-footer {
+border-left: 2px solid #2c3b49!important;
+}
+#overlayPageContent{
+    margin-left: 2px!important;
+}
+
+.crumbs {
+    
+    padding: 83px 20px 0 0 !important;
+}
+.detailViewSetting,.Calendar-module-action-content ,.coloredBorderTop{
+    background:#ffffff !important;
+}
+/*.coloredBorderTop{*/
+/*    height: 130px !important;*/
+/*}*/
+
+
+.fieldLabel .pull-right{
+    float:left !important;
+    padding-top: 14px !important;
+}
+
+
+#helpPageOverlay{
+    left: 4px;
+        width: 50px;
+}
+
+.modal-content{
+        width: 339px !important;
+            overflow-y: scroll;
+}
+/*.lists-menu-container .sidebar-header {
+    margin-top: 125px !important;
+}*/
+.modal-body,.calender-list-quick-create {padding:0 !important;}
+.calender-list-quick-create ul li {
+    display :block !important;
+}
+}
+

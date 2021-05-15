@@ -1,0 +1,21 @@
+Traced on 2021-02-14 21:56:51
+FileAccessForInclusion - 
+/home/newcrmrightchoic/public_html/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/home/newcrmrightchoic/public_html/data/CRMEntity.php::checkFileAccessForInclusion::56<br>
+/home/newcrmrightchoic/public_html/modules/Vtiger/models/Module.php::getInstance::1578<br>
+/home/newcrmrightchoic/public_html/modules/Settings/LayoutEditor/models/Field.php::getCompulsoryMandatoryFieldList::141<br>
+/home/newcrmrightchoic/public_html/test/templates_c/v7/4099abf14d371c81982028d3ba75ac4414d2d6a4.file.FieldCreate.tpl.php::isMandatoryOptionDisabled::101<br>
+/home/newcrmrightchoic/public_html/libraries/Smarty/libs/sysplugins/smarty_internal_templatebase.php::content_5fdb3b4cb273e::180<br>
+/home/newcrmrightchoic/public_html/libraries/Smarty/libs/sysplugins/smarty_internal_template.php::fetch::285<br>
+/home/newcrmrightchoic/public_html/test/templates_c/v7/9658fb5cfb3ca26cad0a1c371465892d3e522941.file.FieldsList.tpl.php::getSubTemplate::295<br>
+/home/newcrmrightchoic/public_html/libraries/Smarty/libs/sysplugins/smarty_internal_templatebase.php::content_5fdb3b4c8a5da::180<br>
+/home/newcrmrightchoic/public_html/libraries/Smarty/libs/sysplugins/smarty_internal_template.php::fetch::285<br>
+/home/newcrmrightchoic/public_html/test/templates_c/v7/f779cba6db10427dbfe86b2ca77d57be0a33db98.file.Index.tpl.php::getSubTemplate::56<br>
+/home/newcrmrightchoic/public_html/libraries/Smarty/libs/sysplugins/smarty_internal_templatebase.php::content_5fdb3b4c0b4c6::180<br>
+/home/newcrmrightchoic/public_html/libraries/Smarty/libs/sysplugins/smarty_internal_templatebase.php::fetch::374<br>
+/home/newcrmrightchoic/public_html/includes/runtime/Viewer.php::display::188<br>
+/home/newcrmrightchoic/public_html/modules/Settings/LayoutEditor/views/Index.php::view::118<br>
+/home/newcrmrightchoic/public_html/includes/runtime/Controller.php::showFieldLayout::64<br>
+/home/newcrmrightchoic/public_html/modules/Settings/LayoutEditor/views/Index.php::invokeExposedMethod::50<br>
+/home/newcrmrightchoic/public_html/includes/main/WebUI.php::process::215<br>
+/home/newcrmrightchoic/public_html/index.php::process::20<br>

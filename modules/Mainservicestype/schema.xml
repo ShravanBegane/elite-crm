@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_mainservicestype</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_mainservicestype` (
+  `mainservicestypeid` int(11) NOT NULL,
+  `mainservicestypeno` varchar(100) DEFAULT NULL,
+  `mainservicestype_tks_servicena` varchar(255) DEFAULT NULL,
+  `mainservicestype_tks_descripti` varchar(250) DEFAULT NULL,
+  `tags` varchar(1) DEFAULT NULL,
+  PRIMARY KEY (`mainservicestypeid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_mainservicestypecf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_mainservicestypecf` (
+  `mainservicestypeid` int(11) NOT NULL,
+  PRIMARY KEY (`mainservicestypeid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_mainservicestype_user_field</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_mainservicestype_user_field` (
+  `recordid` int(19) NOT NULL,
+  `userid` int(19) NOT NULL,
+  `starred` varchar(100) DEFAULT NULL,
+  KEY `record_user_idx` (`recordid`,`userid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>

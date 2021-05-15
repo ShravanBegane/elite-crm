@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Markers>
+  <marker id="20" client_id="" employee_id="2177" date="2020-10-27" time="06:16:55am" lat="30.527582" lng="80.0688969" color="#6EFF33" name="Test 2"/>
+  <marker id="28" client_id="" employee_id="468" date="2020-11-05" time="08:54:18am" lat="25.8375603" lng="75.713607" color="#a938da" name="Tina 2"/>
+  <marker id="30" client_id="" employee_id="2189" date="2020-12-08" time="09:39:12am" lat="12.971599" lng="77.594566" color="#77043a" name="Kabir Emp 1"/>
+  <marker id="31" client_id="" employee_id="62" date="2021-04-27" time="09:45:20 AM" lat="20.940920" lng="84.803467" color="#e147c6" name=""/>
+  <marker id="33" client_id="" employee_id="62" date="2021-04-28" time="06:01:59 AM" lat="20.940920" lng="84.803467" color="#eb39bd" name=""/>
+</Markers>
